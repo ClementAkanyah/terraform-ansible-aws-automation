@@ -1,0 +1,32 @@
+﻿# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+tfplan
+crash.log
+crash.*.log
+
+# Terraform variable files that may contain secrets
+*.tfvars
+*.tfvars.json
+
+# SSH private keys
+*.pem
+*.key
+id_rsa
+id_ed25519
+
+# Ansible
+*.retry
+
+# Environment and credentials
+.env
+.env.*
+.aws/
+credentials
+
+# Operating system / editor
+.DS_Store
+Thumbs.db
+.vscode/
