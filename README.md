@@ -1034,7 +1034,9 @@ ping: pong
 
 # Cleanup and Cost Control
 
-The AWS resources should be destroyed when the challenge no longer needs to remain available.
+## Cleanup and Cost Control
+
+After completing deployment and verification, I destroyed the AWS resources to prevent ongoing charges. The Terraform, Kubernetes, Helm, and pipeline configurations remain available for review and reproduction.
 
 From the Terraform directory:
 
@@ -1053,7 +1055,7 @@ terraform destroy
 
 Terraform will remove the resources it manages.
 
-Always verify the AWS account afterward to make sure no manually created or unrelated billable resources remain.
+Verified the AWS account afterward to make sure no manually created or unrelated billable resources remain.
 
 ---
 
