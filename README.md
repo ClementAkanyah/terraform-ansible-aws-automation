@@ -1,4 +1,4 @@
-﻿# Cloud Engineer Coding Challenge 3 — Terraform & Ansible on AWS
+﻿# Terraform & Ansible on AWS
 
 This project demonstrates Infrastructure as Code and configuration management on AWS using **Terraform** and **Ansible**.
 
